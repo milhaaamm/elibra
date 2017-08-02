@@ -1,0 +1,142 @@
+#container
+{
+	width:900px;
+	margin:auto;
+}
+.login
+{
+	margin:auto;
+	text-align:center;
+	width:300px;
+	height:300px;
+	border:dashed 1px grey;
+	border-radius:18em;
+	box-shadow: 5px 5px 13px grey;
+}
+.login h1
+{
+	padding-top:50px;
+	margin-bottom:10px;
+	font-family:'Agency fb';
+	font-size:70;
+	margin:auto;
+}
+.login table
+{
+	margin:auto;
+}
+.login table input
+{
+	width:100%;
+}
+#header h1
+{
+	border:dotted 1px black;
+	padding:20px;
+	font-family:'Trebuchet ms';
+	font-size:35px;
+	text-align:center;
+	width:900px;
+}
+#tengah
+{
+	width:940px;
+	height:700px;
+}
+#menu
+{
+	width:290px;
+	height:550px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	float:left;
+	border-left:dotted 1px black;
+}
+::-webkit-scrollbar
+{
+	width:12px;
+}
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius:10px;
+}
+::-webkit-scrollbar-thumb
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius:10px;
+}
+#menu ul
+{
+	position:relative;
+	padding-left:20px;
+	list-style-type:none;
+}
+#menu ul li 
+{
+	height:20px;
+	width:250px;
+	float:center;
+	display:block;
+	margin-top:40px;
+	margin-bottom:40px;
+}
+#menu ul li a
+{
+	position:relative;
+	vertical-align:middle;
+	text-decoration:none;
+	padding:20px 30px;
+	border-radius:5px;
+	background:grey;
+	color:white;
+}
+#menu ul li a:hover
+{
+	left:10px;
+	background:rgba(9,9,9,0.8);
+	color:white;
+}
+#konten
+{
+	border-radius:10px 10px 0px 0px;
+	padding:10px;
+	width:610px;
+	border:solid 1px grey;
+	float:right;
+}
+#konten h2
+{
+	border-bottom:solid 1px grey;
+}
+#listfungsi ul
+{
+	list-style-type:none;
+}
+#listfungsi ul li
+{
+	display:block;
+}
+#listfungsi ul li button
+{
+	position:relative;
+	cursor:pointer;
+	border:solid 1px black;
+	width:200px;
+	height:30px;
+	background:yellow;
+	color:black;
+}
+#listfungsi ul li button:hover
+{
+	background:orange;
+	color:black;
+}
+.diperlukan
+{
+	color:red;
+}
+.registrasi
+{
+	width:100%;
+}
